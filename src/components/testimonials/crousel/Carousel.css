@@ -3,7 +3,7 @@
 
 .crousel-component{
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,11 +171,12 @@
         padding: 0px;
     }
     .mainContainer{
-        gap: 30px;
+
         width: 590%;
         background-color: var(--primary-white-text);
         height: 100%;
-        padding-left: 2rem;
+        padding: 0px;
+        
     }
     .navButtons {
         display: none;
@@ -188,8 +189,8 @@
     }
     .slider{
         width: 70vw;
-        padding: 0px;
-        margin-right: 6rem;
+        padding-left: 0px;
+        margin: auto 85.8px
         
 
     }
