@@ -1,0 +1,124 @@
+.section {
+    margin-bottom: 0;
+    padding-top: 6.25rem;
+    padding-bottom: 3.75rem;
+  }
+  
+  .wrapper {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    position: relative;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 1.25rem;
+  }
+  
+  .heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.625rem;
+    text-align: center;
+    color: #180c2e;
+  }
+  
+  .heading-blue {
+    color: #4d61fc;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 3rem;
+    justify-items: center;
+    border: 1px solid #e0e4f4;
+  }
+  
+  .image-container {
+    width: 73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  
+  .image-container:nth-child(1),
+  .image-container:nth-child(2),
+  .image-container:nth-child(3) {
+    border-right: 1px solid #e0e4f4;
+    border-bottom: 1px solid #e0e4f4;
+    border-top: 0;
+    border-left: 0;
+  }
+  
+ 
+  .image-container:nth-child(4){
+    border: 0px;
+    border-bottom: 1px solid #e0e4f4;
+  }
+  .image-container:nth-child(5),
+  .image-container:nth-child(6),
+  .image-container:nth-child(7) {
+    border-right: 1px solid #e0e4f4;
+    border-top: none;
+    border-left: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .section {
+      padding-top: 0;
+    }
+    .container {
+      padding: 1.25rem;
+    }
+    .heading {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 781px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .image-container:nth-child(1),
+    .image-container:nth-child(5),
+    .image-container:nth-child(3) {
+      border-right: 1px solid #e0e4f4;
+      border-bottom: 1px solid #e0e4f4;
+      border-top: 0;
+      border-left: 0;
+    }
+    
+   
+    .image-container:nth-child(4),
+    .image-container:nth-child(2),
+    .image-container:nth-child(6){
+      border: 0px;
+      border-bottom: 1px solid #e0e4f4;
+    }
+
+    .image-container:nth-child(7) {
+      border-right: 1px solid #e0e4f4;
+      border-top: none;
+      border-left: none;
+    }
+  }
+  

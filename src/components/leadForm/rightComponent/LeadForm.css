@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Libre+Baskerville&display=swap');
+
+.lead-form {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30rem;
+    padding: 0px 32px 28px;
+    height: 647px;
+    box-sizing: border-box;
+    border: 1px solid #5A6DFE;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #180C2E;;
+
+  }
+  
+  .lead-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .lead-form form span{
+    color: red;
+  }
+  
+  .lead-form label {
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-align: start;
+  }
+
+  .lead-form input {
+    width: 360px;
+    height: 30px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    border: 1px solid #5A6DFE;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    padding: 0px 10px;
+  }
+  .lead-form input:focus {
+    outline: none;
+    border-color: #007BFF; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    font-size: 13px;
+  }
+  .lead-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    
+  }
+  .lead-form .checkbox-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lead-form button {
+    background: #5A6DFE;
+    border: 1px solid #5A6DFE;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 166px;
+    height: 38px;
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .lead-form  {
+       width: 300px;
+    }
+    .lead-form form{
+      width: 100%;
+    }
+    .lead-form form input{
+      width: 100%
+    };
+
+    .lead-form button {
+        width: 165px;
+    }
+
+  
+  }
+  
+  
