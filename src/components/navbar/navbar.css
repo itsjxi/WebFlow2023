@@ -23,7 +23,7 @@
  
     font-size: 14px;
   }
-  .nav-logo .hamburger{
+  .nav-logo svg{
     display: none;
   }
   .nav-logo img{
@@ -89,7 +89,7 @@
     .nav-menu {
       display: none;
     }
-    .nav-logo  .hamburger{
+    .nav-logo  svg{
         display: block;
         color: var(--primary-white-text);
       }
@@ -111,6 +111,7 @@
       height: auto;
       padding: 1.5rem 1.25rem;
       position: static;
+      justify-content: space-between;
     }
   
     .nav-menu {
