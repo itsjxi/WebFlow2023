@@ -3,8 +3,8 @@
 .lead-form {
     background: #ffffff;
     border-radius: 10px;
-    width: 30rem;
-    padding: 0px 32px 28px;
+    width: 495px;
+    padding: 0px 28px 28px;
     height: 647px;
     box-sizing: border-box;
     border: 1px solid #5A6DFE;
@@ -15,33 +15,30 @@
     color: #180C2E;;
 
   }
-  
-  .lead-form form {
+  .form-field{
+    text-align: left;
+    margin-bottom: 0.7rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-
   }
   .lead-form form span{
     color: red;
   }
   
   .lead-form label {
-    margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 0.7rem;
     text-align: start;
   }
 
-  .lead-form input {
+  .form-field input {
     width: 360px;
     height: 30px;
-    font-size: 13px;
-    margin-bottom: 15px;
+    font-size: 0.8rem;
     border: 1px solid #5A6DFE;
     border-radius: 5px;
     box-sizing: border-box;
-    font-size: 16px;
     transition: border-color 0.3s ease;
     padding: 0px 10px;
   }
@@ -49,17 +46,24 @@
     outline: none;
     border-color: #007BFF; 
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
-    font-size: 13px;
+    font-size: 0.8rem;
   }
   .lead-form input[type="checkbox"] {
-    width: auto;
-    margin-right: 5px;
+    width: 10px;
+    text-align: start;
+    margin-left: 0px;
+    margin-right: 0.5rem;
+
     
   }
   .lead-form .checkbox-box{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .lead-form .checkbox-box p{
+   margin: 0px;
+   font-size: 0.65rem;
   }
   
   .lead-form button {
@@ -73,6 +77,13 @@
     width: 166px;
     height: 38px;
     border-radius: 5px;
+  }
+  .error {
+    color: red;
+    font-size: 0.7rem;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
   }
 
   @media screen and (max-width: 600px) {

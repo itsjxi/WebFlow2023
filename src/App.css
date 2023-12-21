@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Libre+Baskerville&display=swap');
-#root {
-  max-width: 1280px;
-  min-height: 100vh;
-  margin: 0 auto;
-  text-align: center;
 
-}
 
 :root {
   --brand-dark: #180c2e; 
@@ -14,7 +8,24 @@
   --text-color: #fff;
   --secondary-color: rgba(255, 255, 255, 0.6);
   --nav-text-color: rgb(107, 114, 128);
+  --border-bottom-color: rgb(224, 228, 244)
 
 }
- 
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+
+}
+body{
+  color: var(--brand-dark);
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0px;
+  width: 100vw;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 

@@ -5,6 +5,7 @@ import OurClient from './components/ClientLogoSection/clientlogo'
 import HeroSection from './components/heroSection/heroSection'
 import Navbar from './components/navbar/navbar'
 import Carousel from './components/testimonials/crousel/crousel'
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Carousel />
     <OurClient/>
     <FormComponent/>
+    <Footer/>
     </>
   )
 }
