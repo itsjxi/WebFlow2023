@@ -7,23 +7,28 @@ import { FaChevronRight,FaChevronLeft } from "react-icons/fa";
 
 
 function Carousel() {
-  const [activeIndex, setActiveIndex] = useState(0);
+ // State to track the index of the active slide
+ const [activeIndex, setActiveIndex] = useState(0);
 
-  const goToSlide = (index) => {
-    setActiveIndex(index);
-  };
+ // Function to go to a specific slide by index
+ const goToSlide = (index) => {
+   setActiveIndex(index);
+ };
 
-  const goToPrevSlide = () => {
-    const index = (activeIndex - 1 + CrouselData.data.length) % CrouselData.data.length;
-    setActiveIndex(index >= 0 ? index : CrouselData.data.length - 1);
-  };
+ // Function to go to the previous slide
+ const goToPrevSlide = () => {
+   const index = (activeIndex - 1 + CrouselData.data.length) % CrouselData.data.length;
+   setActiveIndex(index >= 0 ? index : CrouselData.data.length - 1);
+ };
 
-  const goToNextSlide = () => {
-    const index = (activeIndex + 1) % CrouselData.data.length;
-    setActiveIndex(index);
-  };
+ // Function to go to the next slide
+ const goToNextSlide = () => {
+   const index = (activeIndex + 1) % CrouselData.data.length;
+   setActiveIndex(index);
+ };
 
-  const transformValue = -activeIndex * (100 / CrouselData.data.length) + '%';
+ // Calculate the transformation value for slide animation
+ const transformValue = -activeIndex * (100 / CrouselData.data.length) + '%';
 
   return (
     <div className='crousel-component'>

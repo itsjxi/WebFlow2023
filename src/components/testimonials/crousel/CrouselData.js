@@ -38,7 +38,8 @@ const CrouselData = {
             "paragraph": "“With Docsumo, we are now able to assign barcodes in less than 2 mins. The same process used to take us 20 mins previously. We are now saving hundreds of hours a month generating Advanced Shipment Notifications. It has reduced manual errors drastically.”",
             "name": "Neil Lawrence",
             "designation": "Business Process Manager, BiagiBros, California",
-            "image": "https://assets-global.website-files.com/64be86eaa29fa71f24b00661/64be86eaa29fa71f24b007af_S1Img4-p-800.png"
+            "image": "https://assets-global.website-files.com/64be86eaa29fa71f24b00661/64be86eaa29fa71f24b007af_S1Img4-p-800.png",
+            "color": "#e0cfa8"
 
         },
         {
@@ -47,7 +48,8 @@ const CrouselData = {
             "paragraph": "“We’re processing utility bills from 6 different service providers for portfolio management. The challenge was to have just one solution to process all different versions of bills to save us the hassle of retraining & switching amongst multiple solutions. Docsumo has been able to deliver just that - one solution for all different variations.“",
             "name": "Shani Nowlin",
             "designation": "Chief Technology Officer Westland Real Estate Group",
-            "image": "https://assets-global.website-files.com/64be86eaa29fa71f24b00661/64be86eaa29fa71f24b007a0_S1Img5-p-800.png"
+            "image": "https://assets-global.website-files.com/64be86eaa29fa71f24b00661/64be86eaa29fa71f24b007a0_S1Img5-p-800.png",
+            "color": "#b0d2d8"
 
         },
         {
@@ -56,7 +58,8 @@ const CrouselData = {
             "paragraph": "“We are using Docsumo’s APIs for automating data capture from bank statements and identity cards while on-boarding customers. It has reduced the time our operations team spends on data entry by manifolds while providing a much better customer experience.”",
             "name": "Prashanth Ranganathan",
             "designation": "CEO, PayU Credit",
-            "image": "https://assets-global.website-files.com/64be86eaa29fa71f24b00661/64be86eaa29fa71f24b008a6_S1Img6-min-p-800.png"
+            "image": "https://assets-global.website-files.com/64be86eaa29fa71f24b00661/64be86eaa29fa71f24b008a6_S1Img6-min-p-800.png",
+            "color": "#f8ca98"
 
         }
     ]

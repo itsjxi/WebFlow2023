@@ -49,6 +49,9 @@
     vertical-align: middle;
     display: inline-block;
 }
+@media screen and (max-width: 680px) {
+
+}
 
   
   @media screen and (max-width: 600px) {

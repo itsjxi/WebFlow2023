@@ -40,7 +40,7 @@ a {
   background-color: rgba(0, 0, 0, 0);
   color: #180c2e;
 }
-/*  */
+
 .footer-separator {
   height: .0625rem;
   background-color: rgba(144, 155, 167, .3);
@@ -52,7 +52,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-/*  */
+
 .footer-left {
   color: #180c2e;
   font-size: 1.1rem;
@@ -101,7 +101,7 @@ a {
 }
 
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 610px){
   .follow-us {
     display: none;
   }

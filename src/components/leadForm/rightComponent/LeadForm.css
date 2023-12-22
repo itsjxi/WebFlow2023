@@ -48,6 +48,11 @@
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
     font-size: 0.8rem;
   }
+  .lead-form input[type="checkbox"]:focus{
+    box-shadow: none;
+   
+  }
+
   .lead-form input[type="checkbox"] {
     width: 10px;
     text-align: start;

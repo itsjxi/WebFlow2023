@@ -236,9 +236,16 @@
 }
 .nav-cta-container a:last-child {
   border: 1px solid var(--primary-color);
+  width: 125px;
 }
 .slide-menu .slide-nav-button a:last-child{
   border: 1px solid var(--border-bottom-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-menu .nav-link-container {
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 991px) {
