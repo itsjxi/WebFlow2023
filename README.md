@@ -1,5 +1,5 @@
  # WebFlow 2023 
-live demo:  https://webflow2023.netlify.app/
+live demo:  https://docsumoclone.netlify.app/
 
 ## Tech Stack
 
@@ -52,4 +52,4 @@ Netlify automatically triggers a new build and deploys our site.
 
 ### 4.4 Access Our Live Site
 
-Once the build is complete, our site will be live at https://webflow2023.netlify.app/.
+Once the build is complete, our site will be live at https://docsumoclone.netlify.app/.
